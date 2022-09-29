@@ -1,0 +1,23 @@
+*{
+  margin:0;
+}
+
+
+body{
+ --font-stack
+}
+
+.title{
+  display: flex;
+}
+
+.title__initial{
+  color: orange;
+}
+
+button{
+  color: white;
+  background-color: orange;
+  border-radius: 50%;
+  border-bottom-left-radius: none;
+}
