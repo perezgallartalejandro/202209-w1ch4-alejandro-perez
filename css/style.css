@@ -17,8 +17,7 @@ body{
 }
 
 button{
-  color: white;
-  background-color: #ED6436;
+  
   border: none;
   border-radius: 20px;
   border-top-left-radius: 0;
@@ -46,7 +45,38 @@ button{
   cursor: pointer;
 }
 
-button:hover{
+.button__view-all{
+  color: white;
+  background-color: #ED6436;
+}
+
+
+.button__view-all:hover{
   background-color: antiquewhite;
   color: #ED6436;
+}
+
+.menu{
+  color: blackS;
+  text-decoration: none;
+  list-style: none;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  border-bottom: 5px grey;
+  cursor: pointer;
+}
+
+.button__Buy{
+  background-color: antiquewhite
+  color black;
+  border: 2px solid;
+  border-color: #ED6436;
+}
+
+.button__Buy:hover{
+  background-color:#ED6436 ;
+  color: white;
 }
