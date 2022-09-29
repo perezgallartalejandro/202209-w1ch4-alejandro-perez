@@ -45,3 +45,8 @@ button{
   flex-direction: row;
   cursor: pointer;
 }
+
+button:hover{
+  background-color: antiquewhite;
+  color: #ED6436;
+}
