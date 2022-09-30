@@ -83,6 +83,6 @@ header{
 }
 
 .images > img:hover{
-  position: absolute;
+  position: relative;
     content: " ";
 }
