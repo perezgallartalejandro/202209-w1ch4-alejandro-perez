@@ -23,7 +23,7 @@ button{
   border-top-left-radius: 0;
   font-size: 1.5rem;
   font-family: "Nunito";
-  margin-left: 300px;
+  margin-left: 600px;
   cursor: pointer;
 }
 
@@ -74,9 +74,15 @@ header{
   color black;
   border: 2px solid;
   border-color: #ED6436;
+  margin-left: 680px;
 }
 
 .button__Buy:hover{
   background-color:#ED6436 ;
   color: white;
+}
+
+.images > img:hover{
+  position: absolute;
+    content: " ";
 }
